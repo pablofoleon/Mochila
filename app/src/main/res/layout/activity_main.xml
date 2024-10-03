@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- TextView para el contenido -->
+    <TextView
+        android:id="@+id/textContenido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contenido"
+        android:textSize="18sp" />
+
+    <!-- Checkboxes para los elementos -->
+    <CheckBox
+        android:id="@+id/checkGorras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:text="@string/gorras"
+        android:textAlignment="center" />
+
+    <CheckBox
+        android:id="@+id/checkBañadores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:text="@string/ba_adores"
+        android:textAlignment="center" />
+
+    <CheckBox
+        android:id="@+id/checkCamisetas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:text="@string/camisetas"
+        android:textAlignment="center" />
+
+    <CheckBox
+        android:id="@+id/checkZapatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:text="@string/zapatos"
+        android:textAlignment="center" />
+
+    <CheckBox
+        android:id="@+id/checkPantalones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:text="@string/pantalones"
+        android:textAlignment="center" />
+
+    <CheckBox
+        android:id="@+id/checkLibros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:text="@string/libros"
+        android:textAlignment="center" />
+
+    <!-- TextView para mostrar el peso total -->
+    <TextView
+        android:id="@+id/textPesoMochila"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/peso_0_kg"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <!-- Botón para vaciar la mochila -->
+    <Button
+        android:id="@+id/buttonVaciar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="@string/vaciar_mochila"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

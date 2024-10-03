@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TresNumeros</string>
+    <string name="vaciar_mochila">VACIAR MOCHILA</string>
+    <string name="peso_0_kg">Peso 0 Kg</string>
+    <string name="libros">Libros</string>
+    <string name="pantalones">Pantalones</string>
+    <string name="zapatos">Zapatos</string>
+    <string name="camisetas">Camisetas</string>
+    <string name="ba_adores">Bañadores</string>
+    <string name="gorras">Gorras</string>
+    <string name="contenido">Contenido:</string>
+</resources>
